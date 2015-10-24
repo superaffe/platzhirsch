@@ -4,9 +4,8 @@
 
 body {
   background-color: #f2f2f2; }
-
 h1 {color: #D3D3D3;
-	font-size: 9.6rem;
+	font-size: 4.2rem;
 	letter-spacing: -.2rem;
 	padding-top: 1.6rem;
 	padding-bottom: 1.6rem;
@@ -16,7 +15,7 @@ h1 {color: #D3D3D3;
 	background: none;
  }
 .header {
-  background: #7524A1 url("../images/logo_bg.png") no-repeat top center;
+  background: #7524A1 url("../images/logo_bg_small.png") no-repeat top center;
   margin-top: 0rem;
   text-align: center;
   }
@@ -75,8 +74,16 @@ h1 {color: #D3D3D3;
   .value-props {
     margin-top: 2.4rem;
     margin-bottom: 3.2rem; }
-}
+	
+  h1 {
+	color: #D3D3D3;
+	font-size: 9.6rem;
+	}
+  .header {
+  	background: #7524A1 url("../images/logo_bg.png") no-repeat top center;
+  	}
 
+}
 
 a {
 	color: #88A124;
