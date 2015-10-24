@@ -64,7 +64,6 @@
 		    <div class="six columns">
 		      <label for="exampleEmailInput">Ihre Email</label>
 		      <input class="u-full-width" type="email" name="_replyto" placeholder="email@irgendwo.de" id="exampleEmailInput">
-			  <input type="hidden" name="_cc" value="arne@arnerichter.de" />
 		    </div>
 		    <div class="six columns">
 		      <label for="exampleRecipientInput">Anfrage</label>
@@ -76,9 +75,10 @@
 		    </div>
 		  </div>
 		  <label for="exampleMessage">Text</label>
-		  <textarea type="text" name="_text" class="u-full-width" placeholder="Hallo Platzhirsch!" id="exampleMessage"></textarea>
+		  <textarea type="text" name="name" class="u-full-width" placeholder="Hallo Platzhirsch!" id="exampleMessage"></textarea>
 		  <input class="button-primary" type="submit" value="Senden" >
 		  <input type="hidden" name="_next" value="http://platzhirsch-berlin.com/index.html?submit">
+		  <input type="hidden" name="_cc" value="arne@arnerichter.de" />
 		</form>
 	</div>
 </section>
