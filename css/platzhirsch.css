@@ -8,7 +8,7 @@ h1 {color: #D3D3D3;
 	font-size: 4.2rem;
 	letter-spacing: -.2rem;
 	padding-top: 1.6rem;
-	padding-bottom: 1.6rem;
+	padding-bottom: 0rem;
 }
 
 .container {
@@ -18,6 +18,7 @@ h1 {color: #D3D3D3;
   background: #7524A1 url("../images/logo_bg_small.png") no-repeat top center;
   margin-top: 0rem;
   text-align: center;
+  
   }
   
  .contact {
@@ -67,7 +68,8 @@ h1 {color: #D3D3D3;
   
 /* Larger than phone */
 @media (min-width: 550px) {
-  .header {
+	
+	.header {
     margin-top: 0rem; }
   .value-img {
     margin-bottom: 1.6rem; }
@@ -78,6 +80,8 @@ h1 {color: #D3D3D3;
   h1 {
 	color: #D3D3D3;
 	font-size: 9.6rem;
+	padding-top: 1.6rem;
+	padding-bottom: 1.6rem;
 	}
   .header {
   	background: #7524A1 url("../images/logo_bg.png") no-repeat top center;
