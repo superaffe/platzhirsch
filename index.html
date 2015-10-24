@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Platzhirsch Köpenick</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+  <link href='https://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/platzhirsch.css">
+	
+  <script src="js/danke.js"></script>
+
+</head>
+<body onload="sichtbar('danke')"; >
+	
+<section id="danke" class="submit">
+	<div class="container">
+		<p>Abgesendet! Wir melden uns.</p>
+	</div>
+</section>
+	
+<section class="header">
+  <div class="container">   
+      <h1>Platzhirsch</h1>
+  </div>
+</section>
+
+<section class="main">
+	<div class="container"> 
+      <div class="value-props row">
+        <div class="four columns value-prop">
+          <a href="images/draussen.jpg"><img class="value-img" src="images/draussen.jpg" alt="Draußen sitzen"></a>
+          <p>Bar, Restaurant, Bistro, Café, Catering.
+	         Geöffnet von 11:30 Uhr bis 22:30 Uhr.
+	         Montag ist Ruhetag.</p>
+	    </div>
+        <div class="four columns value-prop">
+          <a href="images/sonntags.jpg" alt="Sonntagsfrühstück"><img class="value-img" src="images/sonntags.jpg"></a>
+          <p>Räumlichleiten für Feiern bis 30 Personen. Dienstag bis Samstag á la Carté. Sonntags-Frühstück 10:00 Uhr bis 15:00 Uhr.</p>
+        </div>
+        <div class="four columns value-prop">
+          <a href="images/speisekarte.jpg" alt="Speisekarte"><img class="value-img" src="images/speisekarte.jpg"></a>
+          <p>Borgmannstraße 5<br>
+	         12555 Berlin Köpenick (nähe S-Bahnhof)<br>
+	         Tel 0157 57219459<br>
+	         <a href="mailto:platzhirsch-berlin@web.de">platzhirsch-berlin@web.de</a><br>
+	         <a href="https://www.google.de/maps/place/Borgmannstra%C3%9Fe+5,+12555+Berlin/@52.45687,13.5787113,17z/data=!3m1!4b1!4m2!3m1!1s0x47a84869d1cdc797:0xeb042ade8f8b75ec">Google Maps</a> / <a href="https://www.facebook.com/VSJ3k">Facebook</a></p>
+        </div>
+      </div>
+     </div>
+</section>
+
+<section class="contact">
+	<div class="container">
+		<form action="http://formspree.io/platzhirsch-berlin@web.de" method="POST">
+		  <div class="row">
+		    <div class="six columns">
+		      <label for="exampleEmailInput">Ihre Email</label>
+		      <input class="u-full-width" type="email" name="_replyto" placeholder="email@irgendwo.de" id="exampleEmailInput">
+			  <input type="hidden" name="_cc" value="arne@arnerichter.de" />
+		    </div>
+		    <div class="six columns">
+		      <label for="exampleRecipientInput">Anfrage</label>
+		      <select class="u-full-width" name="_subject" id="exampleRecipientInput">
+		        <option value="Reservierung">Reservierung</option>
+		        <option value="Information">Information</option>
+		        <option value="Einfach mal so...">Einfach mal so ...</option>
+		      </select>
+		    </div>
+		  </div>
+		  <label for="exampleMessage">Text</label>
+		  <textarea type="text" name="_text" class="u-full-width" placeholder="Hallo Platzhirsch!" id="exampleMessage"></textarea>
+		  <input class="button-primary" type="submit" value="Senden" >
+		  <input type="hidden" name="_next" value="http://www.platzhirsch-berlin.com/index.html?submit">
+		</form>
+	</div>
+</section>
+
+  
+  
+</body>
+</html>

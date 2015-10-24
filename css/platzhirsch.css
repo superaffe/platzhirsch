@@ -1,0 +1,85 @@
+/*
+* Platzhirsch
+*/
+
+body {
+  background-color: #f2f2f2; }
+
+h1 {color: #D3D3D3;
+	font-size: 9.6rem;
+	letter-spacing: -.2rem;
+	padding-top: 1.6rem;
+	padding-bottom: 1.6rem;
+}
+
+.container {
+	background: none;
+ }
+.header {
+  background: #7524A1 url("../images/logo_bg.png") no-repeat top center;
+  margin-top: 0rem;
+  text-align: center;
+  }
+  
+ .contact {
+  background: #445402;
+  color: #D3D3D3;
+  padding-top:1.6em;
+	 
+ }
+
+.submit {
+  background: red;
+  margin-top: 0rem;
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+  color: #fff;
+  display: none;
+  -webkit-animation: display-none-transition 1s;
+  animation: display-none-transition 1s;
+  }
+
+@-webkit-keyframes display-none-transition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.submit p {
+  margin: 0;
+  padding: 0;
+  }
+
+
+.value-img {
+  display: block;
+  text-align: center;
+  margin: 0 auto 0;
+  width: 100%; }
+  
+.value-prop {
+  margin-top: 0; }
+.value-props {
+  	margin-top: 1.6rem;
+  	margin-bottom: 0; }
+  
+/* Larger than phone */
+@media (min-width: 550px) {
+  .header {
+    margin-top: 0rem; }
+  .value-img {
+    margin-bottom: 1.6rem; }
+  .value-props {
+    margin-top: 2.4rem;
+    margin-bottom: 3.2rem; }
+}
+
+
+a {
+	color: #88A124;
+   }
+a:hover {
+  color: #445402; }
