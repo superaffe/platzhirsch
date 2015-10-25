@@ -18,7 +18,7 @@ h1 {color: #D3D3D3;
   background: #7524A1 url("../images/logo_bg_small.png") no-repeat top center;
   margin-top: 0rem;
   text-align: center;
-  
+  margin-bottom: 1.6em;
   }
   
  .contact {
@@ -70,7 +70,8 @@ h1 {color: #D3D3D3;
 @media (min-width: 550px) {
 	
 	.header {
-    margin-top: 0rem; }
+    margin-top: 0;
+	margin-bottom: 0}
   .value-img {
     margin-bottom: 1.6rem; }
   .value-props {
